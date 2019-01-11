@@ -1,0 +1,14 @@
+{
+  "name": "egoing-js",
+  "version": "1.0.0",
+  "description": "egoing Server Side Javascript Tutorials",
+  "main": "Hellojs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MA",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}
