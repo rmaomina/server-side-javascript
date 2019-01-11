@@ -1,5 +1,5 @@
 {
-  "name": "egoing-js",
+  "name": "server-side-javascript",
   "version": "1.0.0",
   "description": "egoing Server Side Javascript Tutorials",
   "main": "Hellojs.js",
@@ -9,6 +9,22 @@
   "author": "MA",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
     "underscore": "^1.9.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmaomina/server-side-javascript.git"
+  },
+  "keywords": [
+    "egoing",
+    "server",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/rmaomina/server-side-javascript/issues"
+  },
+  "homepage": "https://github.com/rmaomina/server-side-javascript#readme"
 }

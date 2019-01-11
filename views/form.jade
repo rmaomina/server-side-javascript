@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title Hello! Form!
+    body
+        h1 form
+        form(action='/form_receiver' method='post')
+            p
+                input(type='text' name='title')
+            p
+                textarea(name='desc')
+            p
+                input(type='submit')
+
+//- 다음과 같은 내용이 form_receiver에 전송됨
+//- http://localhost:3000/form_receiver?title=_title&desc=_contents
